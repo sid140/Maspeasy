@@ -3,7 +3,7 @@
 import subprocess
 import argparse
 
-print("Welcome to Mapeasy, a simple dumbdown custom version of Nmap. Developed by Xalt")
+print("Welcome to Mapeasy, a simple dumbdown custom version of Nmap. Developed by Sid140")
 try:
 	parser = argparse.ArgumentParser(description="nmap made easy")
 	parser.add_argument("--SYNSCAN", action="store_true", help="This is a TCP SYN SCAN, also known as a stealth scan.")
